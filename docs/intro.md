@@ -21,4 +21,4 @@ sidebar_position: 1
 | [技术支持](./helpdesk)        |    寻求帮助   |
 
 
-如果你有任何建议或者有问题，可以在[这里](https://github.com/muzihuaner/support/issues)提交给我们哦！
+如果你有任何建议或者有其他问题，可以在[这里](https://github.com/muzihuaner/support/issues)提交给我们哦！
