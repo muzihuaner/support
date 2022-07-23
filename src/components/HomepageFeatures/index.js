@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '服务上云',
-    Svg: require('@site/static/img/support.svg').default,
+    Svg: require('@site/static/img/yun.svg').default,
     description: (
       <>
         关注最新技术，紧跟时代前沿
@@ -23,10 +23,10 @@ const FeatureList = [
   },
   {
     title: '技术支持',
-    Svg: require('@site/static/img/yun.svg').default,
+    Svg: require('@site/static/img/support.svg').default,
     description: (
       <>
-        为您提供不定期的技术支持
+        为您提供技术支持
       </>
     ),
   },

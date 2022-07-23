@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '快点技术手册',
-  tagline: '重新定义开源服务，让云原生应用快速普及',
+  tagline: '让你的运维更简单！',
   url: 'https://support.quickso.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/muzihuaner/support/tree/main/docs',
+            'https://github.com/muzihuaner/support/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/muzihuaner/support/tree/main/blog',
+            'https://github.com/muzihuaner/support/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -81,11 +81,21 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '文档',
+            title: '本站',
             items: [
               {
-                label: '教程',
+                label: '文档',
                 to: '/docs/intro',
+              },
+              {
+                label: '博客',
+                to: '/blog',
+              },{
+                label: '关于',
+                to: '/docs/about',
+              },{
+                label: '技术支持',
+                to: '/docs/helpdesk',
               },
             ],
           },
@@ -100,22 +110,22 @@ const config = {
                 label: '欢哥科技官方网站',
                 href: 'https://huangetech.github.io',
               },
-              {
-                label: '快点搜',
-                href: 'https://quickso.cn',
-              },
             ],
           },
           {
-            title: '更多',
+            title: '友情链接',
             items: [
               {
-                label: '博客',
-                to: '/blog',
+                label: '快点搜',
+                to: 'https://quickso.cn',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/muzihuaner',
+                label: 'QuickCDN',
+                href: 'https://cdn.quickso.cn/',
+              },
+              {
+                label: '快点开源镜像站',
+                href: 'https://mirrors.quickso.cn/',
               },
             ],
           },
@@ -125,6 +135,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+
       },
     }),
 };

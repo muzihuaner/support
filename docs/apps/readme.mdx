@@ -1,0 +1,10 @@
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+
+# 应用中心
+
+我们提供了数百个热门开源应用的部署教程，请点击下面的类目详细了解。
+
+如果您期望的应用不在类目中，欢迎给我们[反馈](/)。
+<DocCardList items={useCurrentSidebarCategory().items}/>
