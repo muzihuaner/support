@@ -19,3 +19,6 @@ sidebar_position: 1
 | [故障问题](./faq)        |    常见的技术技术和故障问题   |
 | [关于本站](./about)        |    关于本站  |
 | [技术支持](./helpdesk)        |    寻求帮助   |
+
+
+如果你有任何建议或者有问题，可以在[这里](https://github.com/muzihuaner/support/issues)提交给我们哦！
